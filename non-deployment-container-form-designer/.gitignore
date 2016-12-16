@@ -1,0 +1,10 @@
+node_modules/
+dist/
+npm-debug.log
+.idea/
+.vscode/
+coverage/
+docs/
+typings/
+.DS_Store
+extract/

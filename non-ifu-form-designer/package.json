@@ -1,0 +1,16 @@
+{
+  "name": "@norn/non-ifu-form-designer",
+  "version": "0.1.0",
+  "description": "Form Designer Module",
+  "main": "src/form-designer.module.ts",
+  "scripts" : {
+      "install-typings": "typings install"
+  },
+  "peerDependencies": {
+    "angular": "1.5.8",
+    "@norn/non-framework": "0.1.0"
+  },
+  "devDependencies": {
+    "typings": "0.7.12"
+  }
+}

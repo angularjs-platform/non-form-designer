@@ -1,0 +1,108 @@
+{
+  "name": "@norn/non-deployment-container-form-designer",
+  "version": "0.1.0",
+  "description": "NoN Form Designer Container",
+  "main": "./src/container.module.ts",
+  "browser": "./src/container.module.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/norn/non-form-designer.git"
+  },
+  "scripts": {
+    "install-typings": "typings install",
+
+    "clean": "non-build-manager clean",
+
+    "lint-ts": "non-build-manager lint:ts",
+    "lint-tests": "non-build-manager lint:tests",
+    "lint-scss": "non-build-manager lint:scss",
+    "lint": "non-build-manager lint",
+
+    "build": "non-build-manager build:prod",
+    "test": "non-build-manager test:prod",
+
+    "build-dev": "non-build-manager build:dev",
+    "test-dev": "non-build-manager test:dev",
+
+    "build-coverage": "non-build-manager build:coverage",
+    "test-coverage": "non-build-manager test:coverage",
+
+    "build-publish": "non-build-manager build:publish",
+    "test-publish": "non-build-manager test:publish",
+
+    "prestart": "npm install && npm run install-typings",
+    "start": "npm run clean && npm run build-dev && npm run serve",
+    "serve": "non-build-manager mock:server",
+
+    "watch": "non-build-manager build:watch",
+
+    "docs": "non-build-manager generate:docs",
+
+    "changelog": "non-build-manager generate:changelog",
+
+    "extract": "non-build-manager extract:localization"
+  },
+  "dependencies": {
+    "jquery": "3.1.0",
+    "angular": "1.5.8",
+    "angular-ui-router": "0.3.2",
+    "angular-aria": "1.5.8",
+    "angular-animate": "1.5.8",
+    "angular-material": "1.1.1",
+    "angular-cookies": "1.5.8",
+    "angular-messages": "1.5.8",
+    "angular-resource": "1.5.8",
+    "angular-sanitize": "1.5.8",
+    "angular-translate": "2.13.0",
+    "angular-translate-loader-partial": "2.13.0",
+    "angular-translate-storage-cookie": "2.13.0",
+    "angular-translate-storage-local": "2.13.0",
+    "angular-translate-handler-log": "2.13.0",
+    "angular-local-storage": "0.5.0",
+    "angular-loading-bar": "0.9.0",
+    "angular-material-sidemenu": "1.0.2",
+    "angular-ui-grid": "3.2.9",
+    "angular-breadcrumb": "0.5.0",
+    "ng-fx": "2.0.4",
+    "perfect-scrollbar": "0.6.12",
+    "lodash": "4.16.6",
+
+    "api-check": "7.5.5",
+    "angular-formly": "8.4.0",
+
+    "@norn/non-framework": "0.1.0",
+    "@norn/non-theme-base": "0.1.0",
+    "@norn/non-ifu-form-designer": "0.1.0"
+  },
+  "devDependencies": {
+    "typings": "0.7.12",
+    "@norn/non-build-manager": "0.1.0"
+  },
+  "config": {
+    "non": {
+      "MOCK_SERVER_PORT": 7001,
+      "SERVER_PORT": 9001,
+      "mockServerConfig": {
+        "apimodules": [
+          "@norn/non-ifu-form-designer"
+        ]
+      },
+      "webpackConfig": {
+        "entry": {
+          "vendor": "/src/vendor-libs.ts",
+          "non": "/src/internal-libs.ts",
+          "main": "/src/container.module.ts"
+        },
+        "copyAssets": [
+            {
+                "from": "/src/index.css",
+                "to": "/index.css"
+            }
+        ],
+        "libAlias": {
+            "PerfectScrollbar": "perfect-scrollbar"
+        }
+      }
+    }
+  }
+}

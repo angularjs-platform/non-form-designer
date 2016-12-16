@@ -1,0 +1,16 @@
+@import '~angular-loading-bar/build/loading-bar.css';
+@import '~angular-material-sidemenu/dest/angular-material-sidemenu.css';
+@import '~perfect-scrollbar/dist/css/perfect-scrollbar.css';
+@import '~angular-ui-grid/ui-grid.css';
+@import '~angular-material/angular-material';
+
+html.non-theme-base {
+    @import '~@norn/non-theme-base/src/theme-base';
+
+    @import '~@norn/non-framework/src/framework';
+
+    @import '~@norn/non-ifu-form-designer/src/form-designer';
+
+    @import '~@norn/non-theme-base/src/theme-base-app-overrides';
+}
+
