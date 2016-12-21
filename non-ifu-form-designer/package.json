@@ -8,6 +8,8 @@
   },
   "peerDependencies": {
     "angular": "1.5.8",
+    "jsoneditor": "5.5.10",
+    "ng-jsoneditor": "1.0.0",
     "@norn/non-framework": "0.1.0"
   },
   "devDependencies": {

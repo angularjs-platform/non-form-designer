@@ -22,6 +22,8 @@ import 'angular-breadcrumb';
 import 'ng-fx';
 import 'perfect-scrollbar';
 import 'lodash';
+import 'jsoneditor';
+import 'ng-jsoneditor';
 
 import 'api-check';
 import 'angular-formly';

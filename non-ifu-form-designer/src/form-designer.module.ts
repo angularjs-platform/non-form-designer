@@ -6,7 +6,10 @@ import {UiRouterConfig} from './form-designer.routes';
 // Controller
 import {FormDesignerIFUController} from './form-designer.controller';
 
-angular.module(moduleName, [])
+// Sub Modules
+import jsonEditorSetup from './jsoneditor-setup/jsoneditor-setup.module';
+
+angular.module(moduleName, [jsonEditorSetup])
     .controller('FormDesignerIFUController', FormDesignerIFUController)
     .config(UiRouterConfig);
 
