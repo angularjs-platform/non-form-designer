@@ -1,0 +1,18 @@
+[
+  {
+    "wrapper": "fieldset",
+    "templateOptions": {
+      "label": "General Config"
+    },
+    "fieldGroup": [
+        {
+            "key": "template",
+            "type": "textarea",
+            "className": "flex",
+            "templateOptions": {
+              "label": "HTML Template"
+            }
+        }
+    ]
+  }
+]

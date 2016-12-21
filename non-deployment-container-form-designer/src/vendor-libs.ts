@@ -24,6 +24,8 @@ import 'perfect-scrollbar';
 import 'lodash';
 import 'jsoneditor';
 import 'ng-jsoneditor';
+import 'dragular';
+import 'v-accordion';
 
 import 'api-check';
 import 'angular-formly';

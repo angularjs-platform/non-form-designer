@@ -1,4 +1,7 @@
+@import './form-builder/form-builder';
+
 .non-form-designer {
+
     .md-tab {
         text-transform: none;
         font-size: 16px;
@@ -11,6 +14,54 @@
             background: $primary-default;
             color: $font-color-light;
             border-bottom: 0;
+        }
+    }
+
+    non-page-content-wrapper,
+    .non-page-content-wrapper {
+        height: calc(100vh - 70px);
+
+        md-content {
+            height: 100%;
+        }
+
+        md-toolbar {
+            background: $primary-default;
+        }
+    }
+
+    // Enable this when working on Client Metadata (SDK)
+    /*.metadata-tab {
+        h3 {
+            margin: 0 0 5px;
+            color: $primary-hue-3;
+            height: 30px;
+
+            md-switch {
+                margin: 0;
+            }
+        }
+    }*/
+
+    md-content {
+        background: $card-bg;
+    }
+
+    div[ng-jsoneditor] {
+        // Enable this when working on Client Metadata (SDK)
+        // height: calc(100vh - 110px);
+        height: calc(100vh - 90px);
+
+        .jsoneditor {
+            border: 0;
+        }
+
+        &.model-editor {
+            height: calc(100vh - 90px);
+        }
+
+        div.jsoneditor-menu {
+            border-bottom: 4px solid $accent-default;
         }
     }
 }

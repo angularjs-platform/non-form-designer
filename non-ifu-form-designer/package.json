@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Form Designer Module",
   "main": "src/form-designer.module.ts",
+  "typings": "src/form-designer.model.ts",
   "scripts" : {
       "install-typings": "typings install"
   },

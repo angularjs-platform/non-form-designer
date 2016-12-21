@@ -1,0 +1,251 @@
+[
+  {
+    "wrapper": "fieldset",
+    "templateOptions": {
+      "label": "General Config"
+    },
+    "fieldGroup": [
+      {
+        "wrapper": "fieldwrapper",
+        "elementAttributes": {
+          "layout-gt-sm": "row",
+          "layout-sm": "column",
+          "layout-xs": "column"
+        },
+        "fieldGroup": [
+          {
+            "key": "className",
+            "type": "input",
+            "className": "flex",
+            "templateOptions": {
+              "type": "text",
+              "label": "Class"
+            }
+          }
+        ]
+      },
+      {
+        "key": "hideExpression",
+        "type": "input",
+        "className": "flex",
+        "templateOptions": {
+          "type": "text",
+          "label": "Hide Expression"
+        }
+      },
+      {
+        "key": "hide",
+        "type": "checkbox",
+        "className": "flex",
+        "templateOptions": {
+          "label": "Hide"
+        }
+      }
+    ]
+  },
+  {
+    "wrapper": "fieldset",
+    "key": "templateOptions",
+    "templateOptions": {
+      "label": "Template Options"
+    },
+    "fieldGroup": [
+      {
+        "wrapper": "fieldwrapper",
+        "elementAttributes": {
+          "layout-gt-sm": "row",
+          "layout-sm": "column",
+          "layout-xs": "column"
+        },
+        "fieldGroup": [
+          {
+            "type": "input",
+            "key": "label",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Label",
+              "type": "text"
+            }
+          }
+        ]
+      },
+      {
+        "wrapper": "fieldwrapper",
+        "elementAttributes": {
+          "layout-gt-sm": "row",
+          "layout-sm": "column",
+          "layout-xs": "column"
+        },
+        "fieldGroup": [
+          {
+            "type": "checkbox",
+            "key": "disabled",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Disabled"
+            }
+          }
+        ]
+      },
+      {
+        "wrapper": "fieldset",
+        "key": "actionConfig",
+        "templateOptions": {
+          "label": "Action Config"
+        },
+        "fieldGroup": [
+          {
+            "wrapper": "fieldwrapper",
+            "elementAttributes": {
+              "layout-gt-sm": "row",
+              "layout-sm": "column",
+              "layout-xs": "column"
+            },
+            "fieldGroup": [
+              {
+                "type": "input",
+                "templateOptions": {
+                  "type": "text",
+                  "label": "Action"
+                },
+                "key": "action",
+                "expressionProperties": {},
+                "className": "flex"
+              },
+              {
+                "type": "input",
+                "templateOptions": {
+                  "type": "text",
+                  "label": "Forward To Controller Method"
+                },
+                "key": "forwardToMethod",
+                "className": "flex"
+              },
+              {
+                "type": "input",
+                "templateOptions": {
+                  "type": "text",
+                  "label": "Endpoint URL"
+                },
+                "key": "endpointURL",
+                "className": "flex"
+              }
+            ]
+          },
+          {
+            "wrapper": "fieldwrapper",
+            "elementAttributes": {
+              "layout-gt-sm": "row",
+              "layout-sm": "column",
+              "layout-xs": "column"
+            },
+            "fieldGroup": [
+              {
+                "type": "input",
+                "templateOptions": {
+                  "type": "text",
+                  "label": "Next State"
+                },
+                "key": "nextState",
+                "className": "flex"
+              },
+              {
+                "type": "input",
+                "templateOptions": {
+                  "type": "text",
+                  "label": "Custom Confirmation"
+                },
+                "key": "customConfirmation",
+                "className": "flex"
+              }
+            ]
+          },
+          {
+            "wrapper": "fieldwrapper",
+            "elementAttributes": {
+              "layout-gt-sm": "row",
+              "layout-sm": "column",
+              "layout-xs": "column"
+            },
+            "fieldGroup": [
+              {
+                "type": "checkbox",
+                "templateOptions": {
+                  "label": "Hide Confirmation"
+                },
+                "expressionProperties": {},
+                "key": "hideConfirmation",
+                "className": "flex"
+              },
+              {
+                "type": "checkbox",
+                "templateOptions": {
+                  "label": "Hide Invalid Form Alert Dialog"
+                },
+                "key": "hideInvalidFormAlertDialog",
+                "expressionProperties": {},
+                "className": "flex"
+              },
+              {
+                "type": "checkbox",
+                "templateOptions": {
+                  "label": "Validate Form"
+                },
+                "key": "validateForm",
+                "expressionProperties": {},
+                "className": "flex"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "wrapper": "fieldset",
+    "key": "expressionProperties",
+    "templateOptions": {
+      "label": "Expression Properties"
+    },
+    "fieldGroup": [
+      {
+        "wrapper": "fieldwrapper",
+        "elementAttributes": {
+          "layout-gt-sm": "row",
+          "layout-sm": "column",
+          "layout-xs": "column"
+        },
+        "fieldGroup": [
+          {
+            "type": "input",
+            "key": "templateOptions.disabled",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Disabled",
+              "type": "text"
+            }
+          }
+        ]
+      },
+      {
+        "wrapper": "fieldwrapper",
+        "elementAttributes": {
+          "layout-gt-sm": "row",
+          "layout-sm": "column",
+          "layout-xs": "column"
+        },
+        "fieldGroup": [
+          {
+            "type": "input",
+            "key": "templateOptions.label",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Label",
+              "type": "text"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

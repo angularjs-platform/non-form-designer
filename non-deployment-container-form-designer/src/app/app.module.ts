@@ -6,6 +6,7 @@ import {Run} from './app.run';
 import {LocalizationConfig} from './app.localization.config';
 import {LoadingBarConfig} from './app.loading-bar.config';
 import {LocalStorageConfig} from './app.localstorage.config';
+import {ThemeConfig} from './app.theme.config';
 
 angular.module(moduleName, [])
     .run(Run)
@@ -13,6 +14,7 @@ angular.module(moduleName, [])
     .config(HTTPConfig)
     .config(LocalizationConfig)
     .config(LoadingBarConfig)
-    .config(LocalStorageConfig);
+    .config(LocalStorageConfig)
+    .config(ThemeConfig);
 
 export default moduleName;

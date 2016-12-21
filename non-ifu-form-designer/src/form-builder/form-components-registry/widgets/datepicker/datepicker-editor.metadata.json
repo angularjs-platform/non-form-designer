@@ -1,0 +1,295 @@
+[
+  {
+    "wrapper": "fieldset",
+    "templateOptions": {
+      "label": "General Config"
+    },
+    "fieldGroup": [
+      {
+        "wrapper": "fieldwrapper",
+        "elementAttributes": {
+          "layout-gt-sm": "row",
+          "layout-sm": "column",
+          "layout-xs": "column"
+        },
+        "fieldGroup": [
+          {
+            "key": "key",
+            "type": "input",
+            "className": "flex",
+            "templateOptions": {
+              "type": "text",
+              "label": "Key",
+              "required": true
+            }
+          },
+          {
+            "key": "className",
+            "type": "input",
+            "className": "flex",
+            "templateOptions": {
+              "type": "text",
+              "label": "Class"
+            }
+          }
+        ]
+      },
+      {
+        "key": "hideExpression",
+        "type": "input",
+        "className": "flex",
+        "templateOptions": {
+          "type": "text",
+          "label": "Hide Expression"
+        }
+      },
+      {
+        "key": "hide",
+        "type": "checkbox",
+        "className": "flex",
+        "templateOptions": {
+          "label": "Hide"
+        }
+      }
+    ]
+  },
+  {
+    "wrapper": "fieldset",
+    "key": "templateOptions",
+    "templateOptions": {
+      "label": "Template Options"
+    },
+    "fieldGroup": [
+      {
+        "wrapper": "fieldwrapper",
+        "elementAttributes": {
+          "layout-gt-sm": "row",
+          "layout-sm": "column",
+          "layout-xs": "column"
+        },
+        "fieldGroup": [
+          {
+            "type": "input",
+            "key": "label",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Label",
+              "type": "text"
+            }
+          }
+        ]
+      },
+      {
+        "wrapper": "fieldwrapper",
+        "elementAttributes": {
+          "layout-gt-sm": "row",
+          "layout-sm": "column",
+          "layout-xs": "column"
+        },
+        "fieldGroup": [
+          {
+            "type": "checkbox",
+            "key": "required",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Required/Mandatory"
+            }
+          },
+          {
+            "type": "checkbox",
+            "key": "disabled",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Disabled"
+            }
+          },
+          {
+            "type": "checkbox",
+            "key": "readonly",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Readonly"
+            }
+          }
+        ]
+      },
+      {
+        "wrapper": "fieldset",
+        "templateOptions": {
+          "label": "Events"
+        },
+        "fieldGroup": [
+          {
+            "wrapper": "fieldwrapper",
+            "elementAttributes": {
+              "layout-gt-sm": "row",
+              "layout-sm": "column",
+              "layout-xs": "column"
+            },
+            "fieldGroup": [
+              {
+                "type": "input",
+                "key": "onBlur",
+                "className": "flex",
+                "templateOptions": {
+                  "label": "On Blur",
+                  "type": "text"
+                }
+              },
+              {
+                "type": "input",
+                "key": "onChange",
+                "className": "flex",
+                "templateOptions": {
+                  "label": "On Change",
+                  "type": "text"
+                }
+              }
+            ]
+          },
+          {
+            "wrapper": "fieldwrapper",
+            "elementAttributes": {
+              "layout-gt-sm": "row",
+              "layout-sm": "column",
+              "layout-xs": "column"
+            },
+            "fieldGroup": [
+              {
+                "type": "input",
+                "key": "onClick",
+                "className": "flex",
+                "templateOptions": {
+                  "label": "On Click",
+                  "type": "text"
+                }
+              },
+              {
+                "type": "input",
+                "key": "onFocus",
+                "className": "flex",
+                "templateOptions": {
+                  "label": "On Focus",
+                  "type": "text"
+                }
+              }
+            ]
+          },
+          {
+            "wrapper": "fieldwrapper",
+            "elementAttributes": {
+              "layout-gt-sm": "row",
+              "layout-sm": "column",
+              "layout-xs": "column"
+            },
+            "fieldGroup": [
+              {
+                "type": "input",
+                "key": "onKeydown",
+                "className": "flex",
+                "templateOptions": {
+                  "label": "On Key Down",
+                  "type": "text"
+                }
+              },
+              {
+                "type": "input",
+                "key": "onKeyup",
+                "className": "flex",
+                "templateOptions": {
+                  "label": "On Key Up",
+                  "type": "text"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "wrapper": "fieldset",
+    "key": "expressionProperties",
+    "templateOptions": {
+      "label": "Expression Properties"
+    },
+    "fieldGroup": [
+      {
+        "wrapper": "fieldwrapper",
+        "elementAttributes": {
+          "layout-gt-sm": "row",
+          "layout-sm": "column",
+          "layout-xs": "column"
+        },
+        "fieldGroup": [
+          {
+            "type": "input",
+            "key": "templateOptions.required",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Required/Mandatory",
+              "type": "text"
+            }
+          },
+          {
+            "type": "input",
+            "key": "templateOptions.disabled",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Disabled",
+              "type": "text"
+            }
+          },
+          {
+            "type": "input",
+            "key": "templateOptions.readonly",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Readonly",
+              "type": "text"
+            }
+          }
+        ]
+      },
+      {
+        "wrapper": "fieldwrapper",
+        "elementAttributes": {
+          "layout-gt-sm": "row",
+          "layout-sm": "column",
+          "layout-xs": "column"
+        },
+        "fieldGroup": [
+          {
+            "type": "input",
+            "key": "templateOptions.label",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Label",
+              "type": "text"
+            }
+          },
+          {
+            "type": "input",
+            "templateOptions": {
+              "type": "text",
+              "label": "Min Date"
+            },
+            "expressionProperties": {},
+            "key": "templateOptions.minDate",
+            "className": "flex"
+          },
+          {
+            "type": "input",
+            "templateOptions": {
+              "type": "text",
+              "label": "Max Date"
+            },
+            "expressionProperties": {},
+            "key": "templateOptions.maxDate",
+            "className": "flex"
+          }
+        ]
+      }
+    ]
+  }
+]

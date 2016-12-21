@@ -1,0 +1,157 @@
+[
+  {
+    "wrapper": "fieldset",
+    "templateOptions": {
+      "label": "General Config"
+    },
+    "fieldGroup": [
+      {
+        "wrapper": "fieldwrapper",
+        "elementAttributes": {
+          "layout-gt-sm": "row",
+          "layout-sm": "column",
+          "layout-xs": "column"
+        },
+        "fieldGroup": [
+          {
+            "key": "key",
+            "type": "input",
+            "className": "flex",
+            "templateOptions": {
+              "type": "text",
+              "label": "Key"
+            }
+          },
+          {
+            "key": "className",
+            "type": "input",
+            "className": "flex",
+            "templateOptions": {
+              "type": "text",
+              "label": "Class"
+            }
+          }
+        ]
+      },
+      {
+        "key": "hideExpression",
+        "type": "input",
+        "className": "flex",
+        "templateOptions": {
+          "type": "text",
+          "label": "Hide Expression"
+        }
+      },
+      {
+        "key": "hide",
+        "type": "checkbox",
+        "className": "flex",
+        "templateOptions": {
+          "label": "Hide"
+        }
+      }
+    ]
+  },
+  {
+    "wrapper": "fieldset",
+    "key": "elementAttributes",
+    "templateOptions": {
+      "label": "Element Attributes"
+    },
+    "fieldGroup": [
+      {
+        "wrapper": "fieldwrapper",
+        "elementAttributes": {
+          "layout-gt-sm": "row",
+          "layout-sm": "column",
+          "layout-xs": "column"
+        },
+        "fieldGroup": [
+          {
+            "key": "layout-gt-sm",
+            "type": "select",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Layout Desktop",
+              "options": [
+                {
+                  "name": "Arrange in Row",
+                  "value": "row"
+                },
+                {
+                  "name": "Arrange in Column",
+                  "value": "column"
+                }
+              ]
+            }
+          },
+          {
+            "key": "layout-sm",
+            "type": "select",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Layout Tablets",
+              "options": [
+                {
+                  "name": "Arrange in Row",
+                  "value": "row"
+                },
+                {
+                  "name": "Arrange in Column",
+                  "value": "column"
+                }
+              ]
+            }
+          },
+          {
+            "key": "layout-xs",
+            "type": "select",
+            "className": "flex",
+            "templateOptions": {
+              "type": "text",
+              "label": "Layout Mobile",
+              "options": [
+                {
+                  "name": "Arrange in Row",
+                  "value": "row"
+                },
+                {
+                  "name": "Arrange in Column",
+                  "value": "column"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "wrapper": "fieldset",
+    "key": "templateOptions",
+    "templateOptions": {
+      "label": "Template Options"
+    },
+    "fieldGroup": [
+      {
+        "wrapper": "fieldwrapper",
+        "elementAttributes": {
+          "layout-gt-sm": "row",
+          "layout-sm": "column",
+          "layout-xs": "column"
+        },
+        "fieldGroup": [
+          {
+            "type": "input",
+            "key": "label",
+            "className": "flex",
+            "templateOptions": {
+              "label": "Label",
+              "type": "text"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

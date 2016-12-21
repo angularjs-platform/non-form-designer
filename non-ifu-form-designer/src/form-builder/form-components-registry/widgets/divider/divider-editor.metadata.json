@@ -1,0 +1,55 @@
+[
+  {
+    "wrapper": "fieldset",
+    "templateOptions": {
+      "label": "General Config"
+    },
+    "fieldGroup": [
+      {
+        "wrapper": "fieldwrapper",
+        "elementAttributes": {
+          "layout-gt-sm": "row",
+          "layout-sm": "column",
+          "layout-xs": "column"
+        },
+        "fieldGroup": [
+          {
+            "key": "key",
+            "type": "input",
+            "className": "flex",
+            "templateOptions": {
+              "type": "text",
+              "label": "Key"
+            }
+          },
+          {
+            "key": "className",
+            "type": "input",
+            "className": "flex",
+            "templateOptions": {
+              "type": "text",
+              "label": "Class"
+            }
+          }
+        ]
+      },
+      {
+        "key": "hideExpression",
+        "type": "input",
+        "className": "flex",
+        "templateOptions": {
+          "type": "text",
+          "label": "Hide Expression"
+        }
+      },
+      {
+        "key": "hide",
+        "type": "checkbox",
+        "className": "flex",
+        "templateOptions": {
+          "label": "Hide"
+        }
+      }
+    ]
+  }
+]
