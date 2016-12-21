@@ -18,32 +18,28 @@
 
 .loading-bar {
     display: inline-block;
-    width: 8px;
-    height: 50px;
+    width: 10px;
+    height: 60px;
     border-radius: 4px;
     animation: loading 1s ease-in-out infinite;
 }
 
-.loading-bar:nth-child(1),
-.loading-bar:nth-child(8) {
+.loading-bar:nth-child(1) {
     background-color: #4285f4;
     animation-delay: 0;
 }
 
-.loading-bar:nth-child(2),
-.loading-bar:nth-child(7) {
+.loading-bar:nth-child(2) {
     background-color: #f4b400;
     animation-delay: 0.09s;
 }
 
-.loading-bar:nth-child(3),
-.loading-bar:nth-child(6) {
+.loading-bar:nth-child(3) {
     background-color: #0f9d58;
     animation-delay: .18s;
 }
 
-.loading-bar:nth-child(4),
-.loading-bar:nth-child(5) {
+.loading-bar:nth-child(4) {
     background-color: #db4437;
     animation-delay: .27s;
 }
