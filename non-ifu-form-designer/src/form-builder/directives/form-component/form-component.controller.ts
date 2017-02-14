@@ -11,7 +11,7 @@ export class FormBuilderFormComponentController {
 
     constructor(private _: _.LoDashStatic,
                 private FormBuilder: FormBuilder.IFormBuilderService,
-                private $mdDialog: ng.material.IDialogService) {
+                private $mdDialog: any) {
         'ngInject';
 
         if (!this.isSimpleComponent) {
@@ -60,6 +60,7 @@ export class FormBuilderFormComponentController {
 
     public edit = (event: any): void => {
        this.$mdDialog.show({
+            multiple: true,
             controller: FormBuilderFormComponentEditorController,
             bindToController: true,
             controllerAs: 'vm',
