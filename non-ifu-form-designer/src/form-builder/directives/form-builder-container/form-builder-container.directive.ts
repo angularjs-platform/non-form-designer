@@ -1,6 +1,6 @@
 import {FormBuilderContainerController} from './form-builder-container.controller';
 
-class FormBuilderContainerDirective implements ng.IDirective {
+export class FormBuilderContainerDirective implements ng.IDirective {
 
     restrict = 'E';
     controller = FormBuilderContainerController;
@@ -20,5 +20,3 @@ class FormBuilderContainerDirective implements ng.IDirective {
     }
 
 }
-
-export default FormBuilderContainerDirective.instance;

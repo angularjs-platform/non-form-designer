@@ -11,7 +11,7 @@ export class FormBuilderFormComponentController {
 
     constructor(private _: _.LoDashStatic,
                 private FormBuilder: FormBuilder.IFormBuilderService,
-                private $mdDialog: any) {
+                private $mdDialog: ng.material.IDialogService) {
         'ngInject';
 
         if (!this.isSimpleComponent) {

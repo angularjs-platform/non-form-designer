@@ -1,6 +1,6 @@
 import {FormBuilderFormComponentController} from './form-component.controller';
 
-class FormBuilderFormComponentDirective {
+export class FormBuilderFormComponentDirective implements ng.IDirective {
 
     restrict = 'A';
     scope = {
@@ -58,5 +58,3 @@ class FormBuilderFormComponentDirective {
         return wrapper;
     }
 }
-
-export default FormBuilderFormComponentDirective.instance;

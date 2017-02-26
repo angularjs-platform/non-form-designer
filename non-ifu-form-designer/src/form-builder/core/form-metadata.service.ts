@@ -5,6 +5,7 @@ export class FormMetadataService implements FormBuilder.IFormMetadataService {
 
     constructor(private _: _.LoDashStatic,
                 private FormBuilder: FormBuilder.IFormBuilderService) {
+        'ngInject';
         // Empty
     }
 

@@ -1,3 +1,5 @@
+import * as angular from 'angular';
+
 const moduleName: string = 'non.container.form-designer';
 
 // SCSS

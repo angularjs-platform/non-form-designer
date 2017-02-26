@@ -1,7 +1,23 @@
 {
+    "compilerOptions": {
+        "types": [
+            "angular",
+            "angular-animate",
+            "angular-cookies",
+            "angular-loading-bar",
+            "angular-local-storage",
+            "angular-material",
+            "angular-sanitize",
+            "angular-translate",
+            "angular-ui-router",
+            "jquery",
+            "lodash",
+            "node",
+            "ui-grid",
+            "angular-breadcrumb"
+        ]
+    },
     "exclude": [
-        "node_modules",
-        "typings/main",
-        "typings/main.d.ts"
+        "node_modules"
     ]
 }

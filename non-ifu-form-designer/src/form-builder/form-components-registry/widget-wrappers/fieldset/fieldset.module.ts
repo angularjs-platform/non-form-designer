@@ -1,3 +1,5 @@
+import * as angular from 'angular';
+
 const moduleName: string = 'non.ifu.form-designer.form-builder.form-components-registry.widget-wrappers.fieldset';
 
 import {FormBuilderConfig} from './fieldset.config';

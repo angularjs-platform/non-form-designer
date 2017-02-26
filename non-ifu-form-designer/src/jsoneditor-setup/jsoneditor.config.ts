@@ -2,11 +2,12 @@ export class JSONEditorConfig {
 
     constructor(
         $windowProvider: any,
-        JSONEditor: any
+        JSONEditor: any,
+        _: _.LoDashStatic
     ) {
         'ngInject';
         const $window: any = $windowProvider.$get();
-        if (!angular.isDefined($window['JSONEditor'])) {
+        if (_.isUndefined($window['JSONEditor'])) {
             $window['JSONEditor'] = JSONEditor;
         }
     }
