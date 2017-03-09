@@ -19,8 +19,5 @@ export class LocalizationConfig {
         this.$translateProvider.useLoader('$translatePartialLoader', {
             urlTemplate: '/locale/{part}?lang={lang}'
         });
-
-        // Log missing Translations
-        this.$translateProvider.useMissingTranslationHandlerLog();
     }
 }

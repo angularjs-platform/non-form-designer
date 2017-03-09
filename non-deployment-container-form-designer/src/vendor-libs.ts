@@ -15,7 +15,6 @@ import 'angular-translate';
 import 'angular-translate-loader-partial';
 import 'angular-translate-storage-cookie';
 import 'angular-translate-storage-local';
-import 'angular-translate-handler-log';
 import 'angular-local-storage';
 import 'angular-ui-grid';
 import 'angular-breadcrumb';
@@ -26,6 +25,7 @@ import 'jsoneditor';
 import 'ng-jsoneditor';
 import 'dragular';
 import 'v-accordion';
+import 'ng-file-upload';
 
 import 'api-check';
 import 'angular-formly';

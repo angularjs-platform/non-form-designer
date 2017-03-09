@@ -1,9 +1,0 @@
-{
-    "ORGANIZATION_ID": "Organization ID",
-    "USER_ID": "User ID",
-    "PASSWORD": "Password",
-    "LOGIN": "Login",
-    "FIELD_REQUIRED": "Value Is Required!",
-    "FIELD_MAX_LENGTH_EXCEEDED": "Maximum Length Exceeded!",
-    "CORRECT_FORM_INPUT_ERRORS": "Please correct the Form!"
-}

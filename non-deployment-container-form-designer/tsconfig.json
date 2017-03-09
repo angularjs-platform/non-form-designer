@@ -14,7 +14,8 @@
             "lodash",
             "node",
             "ui-grid",
-            "angular-breadcrumb"
+            "angular-breadcrumb",
+            "ng-file-upload"
         ]
     },
     "exclude": [
